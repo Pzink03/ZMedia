@@ -17,7 +17,9 @@ import {
   notification2,
   notification3,
   notification4,
+  premierpro,
   notion,
+  canva,
   photoshop,
   plusSquare,
   protopie,
@@ -65,7 +67,7 @@ export const navigation = [
   },
   {
     id: "5",
-    title: "Sign in",
+    title: "Contact Me",
     url: "#login",
     onlyMobile: true,
   },
@@ -156,10 +158,10 @@ export const collabApps = [
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
-    width: 34,
-    height: 36,
+    title: "Premier Pro",
+    icon: premierpro,
+    width: 50,
+    height: 40,
   },
   {
     id: "2",
@@ -184,9 +186,9 @@ export const collabApps = [
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
+    title: "Canva",
+    icon: canva,
+    width: 50,
     height: 34,
   },
   {

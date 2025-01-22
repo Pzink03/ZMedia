@@ -8,9 +8,9 @@ export function Collaboration(){
     return (
         <Section crosses>
             <div className="container lg:flex">
-                <div className="max-w-[25rem]">
+                <div className="max-w-[28rem]">
                     <h2 className="h2 mb-4 md:mb-8">
-                        PlaceHolder Title
+                        Using Top Notch Professional Editing Software
                     </h2>
                     <ul className="max-w-[22rem] mb-10 md:mb-14">
                         {collabContent.map((content) => (
