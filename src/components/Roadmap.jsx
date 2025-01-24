@@ -53,8 +53,8 @@ export function Roadmap() {
                     <img
                       className="w-full"
                       src={item.imageUrl}
-                      width={628}
-                      height={426}
+                      width={428}
+                      height={126}
                       alt={item.title}
                     />
                   </div>

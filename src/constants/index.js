@@ -99,7 +99,7 @@ export const roadmap = [
     id: "0",
     title: "Voice recognition",
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    date: "December 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
