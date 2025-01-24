@@ -1,4 +1,4 @@
-import { check, service1, service2, service3 } from "../assets";
+import { check, service1, service2, service3, test } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import { Heading } from "./Heading";
 import { Section } from "./Section";
@@ -50,7 +50,7 @@ export function Services(){
                                 <div className="absolute inset-0">
                                     <img
                                     className="h-full w-full object-cover"
-                                    src={service2}
+                                    src={test}
                                     width={630}
                                     height={750}
                                     alt="robot"
