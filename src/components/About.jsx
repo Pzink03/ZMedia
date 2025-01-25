@@ -6,7 +6,7 @@ import { GradientLight } from './design/Benefits'
 import ClipPath from "../assets/svg/ClipPath"
 import { gradient } from "../assets";
 
-export function Me (){
+export function About (){
     return (
         <Section id="features">
             <div className="container relative z-2">
