@@ -6,8 +6,8 @@ import { LeftCurve, RightCurve } from "./design/Collaboration"
 
 export function Collaboration(){
     return (
-        <Section crosses>
-            <div className="container lg:flex">
+        <Section crosses id="WhatIOffer">
+            <div className="container lg:flex mt-10" >
                 <div className="max-w-[28rem]">
                     <h2 className="h2 mb-4 md:mb-8">
                         Using Top Notch Professional Editing Software
