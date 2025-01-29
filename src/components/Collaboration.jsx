@@ -9,12 +9,12 @@ export function Collaboration(){
         <Section crosses id="WhatIOffer">
             <div className="container lg:flex mt-10" >
                 <div className="max-w-[28rem]">
-                    <h2 className="h2 mb-4 md:mb-8">
-                        Using Top Notch Professional Editing Software
+                    <h2 className="h2 mb-4 md:mb-6">
+                        More Than Just Video Editing
                     </h2>
                     <ul className="max-w-[22rem] mb-10 md:mb-14">
                         {collabContent.map((content) => (
-                            <li className="mb-3 py-3" key={content.id}>
+                            <li className="mb-2 py-2" key={content.id}>
                                 <div className="flex items-center">
                                     <img
                                     src={check}
@@ -27,15 +27,15 @@ export function Collaboration(){
                                     </h6>
                                 </div>
                                     {content.text && (
-                                        <p className="body-2 mt-3 text-n-4">{content.text}</p>
+                                        <p className="body-2 mt-1 text-n-4">{content.text}</p>
                                     )}
                             </li>
                         ))}
                     </ul>
                     <Button>Contact Me</Button>
                 </div>
-                <div className="lg:ml-auto xl:w-[38rem] mt-4">
-                    <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
+                <div className="lg:ml-auto xl:w-[38rem] mt-10">
+                    <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-48 lg:w-[22rem] lg:mx-auto">
                         {collabText}
                     </p>
                     <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">

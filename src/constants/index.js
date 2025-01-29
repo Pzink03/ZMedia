@@ -125,16 +125,18 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Collaboration On Your Terms",
+    text: "I've worked in freelance for years, and I understand everyone operates differently. One of the benefits of ZMedia is you can be as hands-on in the editing process as you'd like.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Expert Problem-solving",
+    text: "",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Industry Standard Software",
+    text: "I understand the importance of using the right tool for the job. That's why I use industry standard software to create the highest quality content.",
   },
 ]
 
