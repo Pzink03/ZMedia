@@ -5,17 +5,18 @@ import { Button } from "./Button";
 import { Heading } from "./Heading";
 import { Section } from "./Section";
 import { TagLine } from "./TagLine";
+import { Reveal } from "./design/Reveal";
 
 export function Roadmap() {
     return (
+      <Reveal>
+
         <Section className="overflow-hidden" id="WhatI'mWorkingOn">
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="What we’re working on" />
-
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
-
           return (
             <div
               className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
@@ -36,7 +37,6 @@ export function Roadmap() {
                 <div className="relative z-1">
                   <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                     <TagLine>{item.date}</TagLine>
-
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                       <img
                         className="mr-2.5"
@@ -48,7 +48,6 @@ export function Roadmap() {
                       <div className="tagline">{status}</div>
                     </div>
                   </div>
-
                   <div className="mb-10 -my-10 -mx-15">
                     <img
                       className="w-full"
@@ -65,14 +64,12 @@ export function Roadmap() {
             </div>
           );
         })}
-
-        <Gradient />
       </div>
-
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button href="/roadmap">Our roadmap</Button>
       </div>
     </div>
   </Section>
+      </Reveal>
     )
 }

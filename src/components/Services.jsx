@@ -3,6 +3,9 @@ import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import { Heading } from "./Heading";
 import { Section } from "./Section";
 import { Gradient } from "./design/Hero";
+import { Reveal } from "./design/Reveal";
+import { RevealFromLeft } from "./design/RevealFromLeft";
+import { RevealFromRight } from "./design/RevealFromRight";
 import {
     VideoBar,
     VideoChatMessage,
@@ -12,8 +15,12 @@ export function Services(){
     return (
         <Section>
             <div className="container">
+                <Reveal width="full">
+
                 <Heading title="Video Editing for all creators" text="Unlocks the potential for your videos"/>
+                </Reveal>
                 <div className="relative">
+                    <Reveal>
                     <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
                         <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
                             <img
@@ -45,8 +52,11 @@ export function Services(){
                             </ul>
                         </div>
                     </div>
+                    </Reveal>
                         <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-                            <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+                    <RevealFromLeft>
+
+                            <div className="relative min-h-[46rem] border border-n-1/10 rounded-3xl overflow-hidden">
                                 <div className="absolute inset-0">
                                     <img
                                     className="h-full w-full object-cover"
@@ -65,6 +75,9 @@ export function Services(){
                                     </p>
                                 </div>
                             </div>
+                    </RevealFromLeft>
+                    <RevealFromRight>
+
                             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
                                 <div className="py-12 px-4 xl:px-8">
                                     <h4>
@@ -95,6 +108,7 @@ export function Services(){
                                     <VideoBar />
                                 </div>
                             </div>
+                    </RevealFromRight>
                         </div>
                         <Gradient />
                     </div>
