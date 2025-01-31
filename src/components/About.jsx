@@ -4,7 +4,7 @@ import { Section } from "./Section";
 import Arrow from "../assets/svg/Arrow"
 import { GradientLight } from './design/Benefits'
 import ClipPath from "../assets/svg/ClipPath"
-import { gradient } from "../assets";
+import { gradient, gradpic } from "../assets";
 
 export function About (){
     return (
@@ -12,10 +12,14 @@ export function About (){
             <div className="container relative z-2">
                 <Heading className="md:max-w-md lg:max-w-2xl" title="Work harder on your videos, less on your editing." />
                 <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-                <div className=''>
+                <div className='w-full'>
+                    <img
+                    src={gradpic}
+                    className="float-right rounded-3xl object-contain pl-4"
+                    width={350}
 
-                    <p className='text-4xl font-bold inline border-b-4 m border-gray-500 text-blue-500'>About</p>
-                    <p className=' md:text-xl sm:tx-md mt-20'>Hello! I'm excited to combine my passion for problem-solving and creativity by developing efficient and user-friendly web applications. I'm an adaptable, and collaborative software engineer who loves the challenges of learning new development tools, editors, and programming languages to create unique and pleasurable user experiences. My passion for software engineering stems from the ability to problem solve and figure out an effective solution in a collaborative way.
+                    />
+                    <p className=' md:text-xl sm:tx-md mt-20'>Hello! I'm excited to combine my passion for problem-solving and creativity by developing efficient and user-friendly web applications. I'm an adaptable, and collaborative software engineer who loves the challenges of learning new development tools, editors, and programming languages to create unique and pleasurable user experiences. My passion for software engineering stems from the ability to problem solve and figure out an effective solution ello! I'm excited to combine my passion for problem-solving and creativity by developing efficient and user-friendly web applications. I'm an adaptable, and collaborative software engineer who loves the challenges of learning new development tools, editors, and programming languages to create unique and pleasurable user experiences. My passion for software engineering stems from the ability to problem solve and figure out an effective solution in a  ello! I'm excited to combine my passion for problem-solving and creativity by developing efficient and user-friendly web applications. I'm an adaptable, and collaborative software engineer who loves the challenges of learning new development tools, editors, and programming languages to create unique and pleasurable user experiences. My passion for software engineering stems from the ability to problem solve and figure out an effective solution in a  in a collaborative way.
                     <br/>
                     <br/>
                     Programming Languages | TypeScript, JavaScript ES6+, Python 3, SQL, HTML5, CSS

@@ -10,7 +10,6 @@ import { Reveal } from "./design/Reveal";
 export function Roadmap() {
     return (
       <Reveal>
-
         <Section className="overflow-hidden" id="WhatI'mWorkingOn">
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="What we’re working on" />
@@ -65,9 +64,9 @@ export function Roadmap() {
           );
         })}
       </div>
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+      {/* <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button href="/roadmap">Our roadmap</Button>
-      </div>
+      </div> */}
     </div>
   </Section>
       </Reveal>
